@@ -34,8 +34,8 @@ public class Login_Defination {
 	@Then("^Provide UserName and Password$")
 	public void enter_email_and_password()
 	{
-		driver.findElement(By.name("userName")).sendKeys("manish10.mishra@ril.com");
-		driver.findElement(By.name("password")).sendKeys("Pass22");
+		driver.findElement(By.name("userName")).sendKeys("example");
+		driver.findElement(By.name("password")).sendKeys("Password");
 	}
 	@Then("^User will click on signin button$")
 	public void click_submit_button()
